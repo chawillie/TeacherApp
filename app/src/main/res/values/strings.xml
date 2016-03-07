@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TeacherApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="planner">Teacher Planner</string>
+    <string name="answers">Asnwers and Examples</string>
+    <string name="dayplanner">Day Planner</string>
+    <string name="teacher">Post Asnwers or Examples</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Alarm">Set Alarm</string>
+    <string name="Event">Event Name</string>
+    <string name="Class">Class Name</string>
+    <string name="Description">Description</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Done">Done</string>
+    <string name="Time">Time</string>
+    <string name="appointmentdate">Set Scheduled date</string>
+    <string name="appointmenttime">Set Scheduled time</string>
+    <string name="Date">Today\'s Date</string>
+    <string name="Add">Add</string>
+    <string name="Details">Task Scheduled on Date:</string>
+    <string name="TimeD">Time:</string>
+    <string name="teacherarea">Class Review and Examples</string>
+</resources>

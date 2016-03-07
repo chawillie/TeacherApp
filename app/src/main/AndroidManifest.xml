@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chawillie.teacherapp" >
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TeacherActivity"
+            >
+        </activity>
+        <activity
+            android:name=".Calender"
+            >
+        </activity>
+        <activity
+            android:name=".Schedule"
+            >
+        </activity>
+        <activity
+            android:name=".TaskDetails"
+            >
+        </activity>
+        <activity
+            android:name=".PostInfo"
+            >
+        </activity>
+        <activity
+            android:name=".PostExamples"
+            >
+        </activity>
+        <activity
+            android:name=".PostNotes"
+            >
+        </activity>
+
+        <activity
+            android:name=".Assessment"
+            >
+        </activity>
+        <activity
+            android:name=".AssessPage"
+            >
+        </activity>
+        <activity
+            android:name=".ShowDetails"
+            >
+        </activity>
+        <activity
+            android:name=".AddStudent"
+            >
+        </activity>
+        <activity
+            android:name=".StudentPost"
+            >
+        </activity>
+        <activity
+            android:name=".StudentArea"
+            >
+        </activity>
+        <activity
+            android:name=".ViewPicture"
+            >
+        </activity>
+        <activity
+            android:name=".ViewReview"
+            >
+        </activity>
+        <activity
+            android:name=".PasswordArea"
+            >
+        </activity>
+        <activity
+            android:name=".ParentArea"
+            >
+        </activity>
+        <activity
+            android:name=".ViewProgress"
+            >
+        </activity>
+    </application>
+
+</manifest>

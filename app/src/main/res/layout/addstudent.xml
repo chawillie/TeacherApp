@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/addname"
+        android:layout_gravity="center_horizontal"
+        android:hint="Student Name" />
+
+    <EditText
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/age"
+        android:inputType="number"
+        android:hint="Age" />
+
+    <EditText
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/code"
+        android:hint="Security ID Code" />
+
+    <EditText
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/addclass"
+        android:hint="Class Name" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:id="@+id/addstu"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
